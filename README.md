@@ -127,7 +127,7 @@ Production deployment via Nginx + Gunicorn
 🤝 Team
 Name	Role
 Ahmed Elmannan	Software Engineer / Full-Stack Developer
-Dev Team	Backend, Frontend, QA
+Abdullah Tahir	Software Engineer / Full-Stack Developer
 📬 Contact
 
 🌐 Website: https://elmannan.site
