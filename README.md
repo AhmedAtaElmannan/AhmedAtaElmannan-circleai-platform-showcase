@@ -1,133 +1,131 @@
-📘 CircleAI Platform — Enterprise Business Systems Suite
-<p align="center"> <img src="https://via.placeholder.com/1200x250.png?text=CircleAI+Platform" /> </p> <p align="center"> <b>AI-Powered HR & Legal Management Platform for Modern Businesses</b> </p>
+📘 CircleAI Platform
+<p align="center"> <img src="/mnt/data/ChatGPT Image Nov 20, 2025, 11_02_58 AM.png" width="100%" /> </p> <h2 align="center">⚡ Enterprise Business Systems Suite</h2> <p align="center"><b>AI-powered HR & Legal management experience built for modern teams</b></p>
+<div align="center"> <img src="https://img.shields.io/badge/Status-Active%20Development-blueviolet?style=for-the-badge" /> <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Django-5.0-0C4B33?style=for-the-badge&logo=django" /> <img src="https://img.shields.io/badge/Vue.js-3-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> </div>
 🚀 Overview
 
-CircleAI Platform is a modern, enterprise-grade solution designed to unify:
+CircleAI Platform is an enterprise-grade Multi-Tenant SaaS ecosystem combining:
 
-CircleHR — a complete Human Resources Management System
+🔹 CircleHR — Complete HR Management System
+🔹 CircleLAW — Legal Office & Case Management System
 
-CircleLAW — a powerful Legal Office Management System
+Designed for scalability, security, and an exceptional modern UX.
 
-Built as a Multi-Tenant SaaS Platform, CircleAI delivers scalability, security, and a streamlined user experience for small and medium-sized businesses.
+✨ Key Features
+🔷 CircleHR — Human Resources Suite
 
-🧠 Core Features
-🔹 CircleHR — Human Resources System
+Employee records & profiles
 
-Employee Management
+Smart attendance tracking
 
-Smart Attendance & Time Tracking
+Payroll & compensation engine
 
-Payroll & Compensation
+Performance reviews & KPIs
 
-Performance Reviews & KPIs
+Requests & approval workflow
 
-Requests & Approvals Workflows
+AI-powered insights
 
-AI-Driven Reports & Dashboards
+RBAC permissions model
 
-Role-Based Access Control (RBAC)
+🔷 CircleLAW — Legal Office Suite
 
-🔹 CircleLAW — Legal Office System
+Clients & case lifecycle
 
-Client & Contact Management
+Court sessions & hearings
 
-Case Lifecycle Management
+Secure document workspace
 
-Sessions, Hearings & Appointments
+Real-time notifications
 
-Smart Document Workspace
+Audit trails & activity logs
 
-Real-Time Notifications
+Advanced search engine
 
-Complete Audit Logging
-
-Advanced Search Engine
-
-🏗 System Architecture
-<p align="center"> <img src="https://via.placeholder.com/900x450.png?text=System+Architecture+Diagram" /> </p>
+🏗 Architecture
+<p align="center"> <img src="https://via.placeholder.com/1000x450/111827/ffffff?text=Architecture+Diagram+(Coming+Soon)" /> </p>
 Backend
 
 Django 5
 
 Django REST Framework
 
-PostgreSQL
+Celery workers
 
 Redis
 
-Celery (Tasks & Scheduling)
-
-Multi-Tenant Architecture
+PostgreSQL
 
 JWT Authentication
 
+Multi-tenant isolation
+
 Frontend
 
-Vue.js
+Vue 3
 
 Vite
 
 TailwindCSS
 
-Axios API Communication
+Axios API layer
 
 Infrastructure
 
-Docker & Docker-Compose
+Docker + Docker Compose
 
-Nginx Reverse Proxy
+Nginx reverse proxy
 
 GitHub Actions CI
 
-Production-Ready Environment Configuration
-
-🖥 Tech Stack Overview
-Category	Technologies
+🖥 Tech Stack
+Layer	Technologies
 Backend	Django, DRF, Celery, Redis
-Frontend	Vue, Vite, TailwindCSS
+Frontend	Vue, TailwindCSS, Vite
 Database	PostgreSQL
 Infrastructure	Docker, Nginx, GitHub Actions
 Authentication	JWT, RBAC
 Architecture	Multi-Tenant SaaS
-🧩 Screenshots (Coming Soon)
+🔐 Security & Compliance
 
-UX/UI previews of CircleHR and CircleLAW dashboards will be added soon.
+RBAC permission system
 
-<p align="center"> <img src="https://via.placeholder.com/600x350.png?text=Dashboard+Preview" /> </p>
-🛡 Security & Compliance
+Audit logging
 
-Enforced Role-Based Access Control
+Dependency vulnerability scanning (CI)
 
-Audit Logs & Activity Tracking
+Secure authentication flows
 
-Automated Dependency Scanning (CI)
+Environment-scoped configs
 
-Secure API Authentication
+Tenant-level data isolation
 
-Environment-Scoped Configurations
+🧩 Development Workflow
+Branch Strategy
+main → production  
+dev → active development  
+feature/* → new features  
+fix/* → bug fixes  
 
-Clean Separation Between Tenants
+CI Pipeline
 
-🔄 Development Workflow
+Linting
 
-dev branch for active development
+Security scanning
 
-Pull Request workflow before merging
+Docker image validation
 
-Automated CI for:
+Local Development
+git clone https://github.com/CircleAI-django/circleai-platform.git
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
+docker-compose up --build
 
-Code Quality
-
-Security Scanning
-
-Docker-based development environment
-
-Production deployment via Nginx + Gunicorn
-
-🤝 Team
+🖼 UI Preview (Coming Soon)
+<p align="center"> <img src="https://via.placeholder.com/700x380/4f46e5/ffffff?text=Dashboard+Preview" /> </p>
+👥 Team
 Name	Role
-Ahmed Elmannan	Software Engineer / Full-Stack Developer
-Abdullah Tahir	Software Engineer / Full-Stack Developer
+Ahmed Elmannan	Full-Stack Software Engineer
+Abdullah Tahir	Full-Stack Software Engineer
 📬 Contact
 
 🌐 Website: https://elmannan.site
@@ -138,4 +136,4 @@ Abdullah Tahir	Software Engineer / Full-Stack Developer
 
 ⭐ Project Status
 
-🚧 Actively developed as part of the CircleAI Organization.
+🚧 Actively developed as part of the CircleAI organization.
